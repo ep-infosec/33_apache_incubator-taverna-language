@@ -1,0 +1,39 @@
+{
+    "@context": [
+        "https://w3id.org/bundle/context"
+    ], 
+    "@id": "../", 
+    "aggregates": [
+        {
+            "bundledAs": {
+                "filename": "bag1.zip", 
+                "folder": "../data/"
+            }, 
+            "conformsTo": [
+                "https://tools.ietf.org/html/draft-kunze-bagit-14", 
+                "https://w3id.org/ro/bagit/profile"
+            ], 
+            "uri": "http://n2t.net/ark:/57799/b90h3c"
+        } 
+    ], 
+    "annotations": [
+        {
+            "about": "../", 
+            "oa:motivatedBy": {
+                "@id": "oa:describing"
+            }, 
+            "uri": "../data/README"
+        }
+    ], 
+    "authoredBy": {
+        "name": "Stian Soiland-Reyes", 
+	"uri": "mbox:stain@apache.org",
+        "orcid": "https://orcid.org/0000-0001-9842-9718"
+    }, 
+    "authoredOn": "2018-05-10T16:07:00+00:00", 
+    "createdBy": {
+        "name": "BDBag version: 1.1.5 (Bagit version: 1.6.3)", 
+        "uri": "https://github.com/ini-bdds/bdbag"
+    }, 
+    "createdOn": "2018-05-10T16:07:00+00:00"
+}
